@@ -1,0 +1,14 @@
+# Virtual environment
+venv/
+.venv/
+
+
+# Ignore requirements.txt
+requirements.txt
+
+# Other files to ignore
+.DS_Store
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
