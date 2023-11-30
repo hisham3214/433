@@ -1,3 +1,4 @@
+
 from flask import Flask, render_template, request, jsonify
 
 import psycopg2
@@ -15,3 +16,4 @@ conn = psycopg2.connect(database='435_project', user='postgres',
 #                         password='Hisham882003!', host='127.0.0.1', port='5432')
 
 cursor = conn.cursor()
+
