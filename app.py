@@ -17,3 +17,4 @@ conn = psycopg2.connect(database='435_project', user='postgres',
 
 cursor = conn.cursor()
 
+#test
